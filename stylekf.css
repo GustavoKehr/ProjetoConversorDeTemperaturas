@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-    background-color: rgb(64, 167, 231);
+    background-color: rgb(184, 64, 231);
 }
 main {
     margin: auto;
@@ -49,6 +49,10 @@ main > section > div#esc > menu > ul > li > a {
     text-decoration: none;
     color: white;
 }
+main > section#sec2 {
+    margin-top: 10px;
+}
+
 
 select#seltab {
     padding-left: 5px;
