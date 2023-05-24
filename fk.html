@@ -29,12 +29,18 @@
         </section>
         <section id="sec2">
             <h2>Fharenheit para Kelvin</h2>
-            <div id="conv"></div>
+            <div id="conv">
+                <label for="cfc">Digite um número em celcius para convertar para Fharenheit</label>
+                <input type="number" name="cfk" id="cfk">
+                <input type="button" value="Converter" onclick="converter()">
+                <input type="reset" value="limpar" onclick="limpar()">
+                <div id="res"></div>
+            </div>
         </section>
     </main>
     <footer>
         <p>GitHub dos Colaboradores: <a href="https://github.com/gustavokehr" target="_blank">gustavokehr</a> <a href="https://github.com/sirmonkii" target="_blank">lucassinni</a></p>
     </footer>
-    <script src="script.js"></script>
+    <script src="scripts/fk.js"></script>
 </body>
 </html>

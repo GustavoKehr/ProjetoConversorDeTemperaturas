@@ -1,21 +1,21 @@
-let cf = document.getElementById("ccf")
+let ck = document.getElementById("cck")
 
 let r = document.getElementById("res")
 
 function converter(){
 
-    if(cf.value.length == 0){
+    if(ck.value.length == 0){
 
         alert("Digite um número para fazer a conversão")
 
     }
     else{
 
-        let numDig = Number(cf.value)
+        let numDig = Number(ck.value)
 
-        cf = numDig * 1.8 + 32
+        ck = numDig + 273.15;
 
-        r.innerHTML = `${cf}`
+        r.innerHTML = `${ck}`
 
     }
 
