@@ -15,7 +15,7 @@ function converter(){
 
         ck = numDig + 273.15;
 
-        r.innerHTML = `${ck}`
+        r.innerHTML = `A conversão de ${numDig}°C para Kelvin foi de <strong>${ck}°K</strong>`
 
     }
 

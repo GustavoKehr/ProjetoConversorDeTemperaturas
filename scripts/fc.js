@@ -15,7 +15,7 @@ function converter(){
 
         fc = (numDig - 32)/1.8
 
-        r.innerHTML = `${fc}`
+        r.innerHTML = `A conversão de ${numDig}°F para Celsius foi de <strong>${fc}°C</strong>`
 
     }
 

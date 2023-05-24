@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-    background-color: rgb(64, 167, 231);
+    background-color: #191970;
 }
 main {
     margin: auto;
@@ -20,7 +20,8 @@ main {
 }
 
 main h1 {
-    color: white;
+    color: black;
+    
 }
 
 main > section {
@@ -30,6 +31,10 @@ main > section {
     width: 450px;
     padding: 20px;
     border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 main > section div {
@@ -58,6 +63,7 @@ select#seltab {
 footer {
     margin-top: 10px;
     text-align: center;
+
 }
 
 footer p  {

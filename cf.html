@@ -12,35 +12,37 @@
         
     </header>
     <main>
-        <h1>Conversor de temperaturas </h1>
-        <section>
+        
+        <section id="menus">
             <div id="esc">
+                <h1>Conversor de temperaturas </h1>
                 <menu>
                     <ul>
-                        <li><a href="cf.html">Celsius para Fharenheit</a></li>
-                        <li><a href="fc.html">Fharenheit para Celsius</a></li>
+                        <li><a href="cf.html">Celsius para Fahrenheit</a></li>
+                        <li><a href="fc.html">Fahrenheit para Celsius</a></li>
                         <li><a href="ck.html">Celcius para Kelvin</a></li>
-                        <li><a href="fk.html">Fharenheit para Kelvin</a></li>
+                        <li><a href="fk.html">Fahrenheit para Kelvin</a></li>
                         <li><a href="kc.html">Kelvin para Celcius</a></li>
-                        <li><a href="kf.html">Kelvin para Fharenheit</a></li>
+                        <li><a href="kf.html">Kelvin para Fahrenheit</a></li>
                         <li><a href="index.html">Página inicial</a></li>
                     </ul>
                 </menu>
+                <footer>
+                    <h3>GitHub dos Colaboradores: <br><a href="https://github.com/gustavokehr" target="_blank">Gustavo Kehr</a> && <a href="https://github.com/sirmonkii" target="_blank">Lucas Sinni</a></h3>
+                </footer>
         </section>
         <section id="sec2">
-            <h2>Celcius Para Fharenheit</h2>
+            <h2>Celcius Para Fahrenheit</h2>
             <div id="conv">
-                <label for="ccf">Digite um número em celcius para convertar para Fharenheit</label>
-                <input type="number" name="ccf" id="ccf">
-                <input type="button" value="Converter" onclick="converter()">
-                <input type="reset" value="limpar" onclick="limpar()">
+                <label for="ccf">Digite um número em <strong>Celsius</strong> para convertar para <strong>Fahrenheit</strong></label>
+                <input type="number" name="ccf" id="ccf" class="buttonn">
+                <input type="button" value="Converter" onclick="converter()" class="button">
+                <input type="reset" value="Limpar" onclick="limpar()" class="button">
                 <div id="res"></div>
             </div>
+            
         </section>
     </main>
-    <footer>
-        <p>GitHub dos Colaboradores: <a href="https://github.com/gustavokehr" target="_blank">gustavokehr</a> <a href="https://github.com/sirmonkii" target="_blank">lucassinni</a></p>
-    </footer>
     <script src="scripts/cf.js"></script>
 </body>
 </html>

@@ -15,7 +15,7 @@ function converter(){
 
         kc = numDig - 273.15;
 
-        r.innerHTML = `${kc}`
+        r.innerHTML = `A conversão de ${numDig}°K para Celsius foi de <strong>${kc}°C</strong>`
 
     }
 

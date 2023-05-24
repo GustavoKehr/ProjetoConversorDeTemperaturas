@@ -15,7 +15,7 @@ function converter(){
 
         cf = numDig * 1.8 + 32
 
-        r.innerHTML = `${cf}`
+        r.innerHTML = `A conversão de ${numDig}°C para Fahrenheit foi de <strong>${cf}°F</strong>`
 
     }
 

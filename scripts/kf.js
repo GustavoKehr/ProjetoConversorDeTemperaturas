@@ -15,7 +15,7 @@ function converter(){
 
         kf = (numDig - 273.15) * 1.8 + 32
 
-        r.innerHTML = `${kf}`
+        r.innerHTML = `A conversão de ${numDig}°K para Fahrenheit foi de <strong>${kf}°F</strong>`
 
     }
 

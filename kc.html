@@ -12,35 +12,36 @@
         
     </header>
     <main>
-        <h1>Conversor de temperaturas</h1>
-        <section>
+        <section id="menus">
             <div id="esc">
+                <h1>Conversor de temperaturas</h1>
                 <menu>
                     <ul>
-                        <li><a href="cf.html">Celsius para Fharenheit</a></li>
-                        <li><a href="fc.html">Fharenheit para Celsius</a></li>
+                        <li><a href="cf.html">Celsius para Fahrenheit</a></li>
+                        <li><a href="fc.html">Fahrenheit para Celsius</a></li>
                         <li><a href="ck.html">Celcius para Kelvin</a></li>
-                        <li><a href="fk.html">Fharenheit para Kelvin</a></li>
-                        <li><a href="kc.html">Kelvin para Celcius</a></li>
-                        <li><a href="kf.html">Kelvin para Fharenheit</a></li>
+                        <li><a href="fk.html">Fahrenheit para Kelvin</a></li>
+                        <li><a href="kc.html">Kelvin para Celsius</a></li>
+                        <li><a href="kf.html">Kelvin para Fahrenheit</a></li>
                         <li><a href="index.html">Página inicial</a></li>
                     </ul>
                 </menu>
+                <footer>
+                    <p>GitHub dos Colaboradores: <a href="https://github.com/gustavokehr" target="_blank">gustavokehr</a> <a href="https://github.com/sirmonkii" target="_blank">lucassinni</a></p>
+                </footer>
         </section>
         <section id="sec2">
-            <h2>Kelvin para celcius</h2>
+            <h2>Kelvin para celsius</h2>
             <div id="conv">
-                <label for="ckc">Digite um número em celcius para convertar para Fharenheit</label>
-                <input type="number" name="ckc" id="ckc">
-                <input type="button" value="Converter" onclick="converter()">
-                <input type="reset" value="limpar" onclick="limpar()">
+                <label for="ckc">Digite um número em <strong>Kelvin</strong> para convertar para <strong>Celsius</strong></label>
+                <input type="number" name="ckc" id="ckc" class="buttonn">
+                <input type="button" value="Converter" onclick="converter()" class="button">
+                <input type="reset" value="limpar" onclick="limpar()" class="button">
                 <div id="res"></div>
             </div>
         </section>
     </main>
-    <footer>
-        <p>GitHub dos Colaboradores: <a href="https://github.com/gustavokehr" target="_blank">gustavokehr</a> <a href="https://github.com/sirmonkii" target="_blank">lucassinni</a></p>
-    </footer>
+    
     <script src="scripts/kc.js"></script>
 </body>
 </html>

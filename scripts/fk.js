@@ -15,7 +15,7 @@ function converter(){
 
         fk = (numDig - 32) * 5/9 + 273.15;
 
-        r.innerHTML = `${fk}`
+        r.innerHTML = `A conversão de ${numDig}°F para Kelvin foi de <strong>${fk}°K</strong>`
 
     }
 
