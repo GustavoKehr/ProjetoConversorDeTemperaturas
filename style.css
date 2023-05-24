@@ -55,10 +55,6 @@ main > section > div#esc > menu > ul > li > a {
     color: white;
 }
 
-select#seltab {
-    padding-left: 5px;
-    width: 170px;
-}
 
 footer {
     margin-top: 10px;
